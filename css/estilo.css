@@ -1,0 +1,103 @@
+
+header{
+	background-color: #2E2EFE;
+	color: #F2F2F2;
+	text-align: center;
+
+}
+
+section{
+  -ms-align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-wrap:wrap;
+}
+.espaciado{
+  float: right;
+  margin: 0;
+  background-color: #F781F3;
+
+}
+.container{
+	
+	margin:0 auto;
+  text-align: center;
+  width: 100%;
+
+}
+
+.izquierdo{
+  float: right;
+  width: 31.5%;
+  height: 100%;
+  margin: 5px 5px;
+  background-color: #BFFF00;
+  border-style: solid;
+  border-color: #F2F2F2; 
+}
+.centro{
+  float: right;
+  width: 31.5%;
+  height: 100%;
+  margin: 5px 5px;
+  background-color: #FA8258;
+  border-style: solid;
+  border-color: #F2F2F2; 
+}
+.derecho{
+  float: right;
+  width: 31.5%;
+  height: 100%;
+  margin: 5px 5px;
+  background-color: #E2A9F3;
+  border-style: solid;
+  border-color: #F2F2F2;
+}
+@media screen and (max-width: 800px){
+		
+}
+@media screen and (min-width: 992px){
+  body{
+  
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 768px) and ( max-width: 991px) {
+  body{
+    background-color: green;
+  }
+  .izquierdo{
+    width: 47.8%;
+    height: auto;
+  }
+  .centro{
+    width: 47.8%;
+    height: auto;
+  }
+  .derecho{
+    width: 98%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  body{
+    background-color: red;
+  }
+  .izquierdo{
+    width: 100%;
+    height: 60%;
+  }
+  .centro{
+    width: 100%;
+    height: 60%;
+  }
+  .derecho{
+    width: 100%;
+    height: 60%;
+  }
+}
